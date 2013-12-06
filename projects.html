@@ -15,26 +15,62 @@
   <body>
     <div class="wrapper">
       <header>
-        <img src="img\mono_pic.JPG" border="0" />
-		<h1>Gayane Petrosyan</h1>
+        <a href="index.html"><img src="img\mono_pic.JPG" border="0" /></a>
+		<a href="index.html"><h1>Gayane Petrosyan</h1></a>
 		<p>pgayane@gmail.com</p>
 		<p class="view"><a href="projects.html">Projects</a></p>
+		<p class="view"><a href="seminars.html">Talks and Seminars</a></p>
 		<p class="view"><a href="cv.html">CV</a></p>				
       </header>
 <section>
+<h1>Projects</h1>
+<!-- <h3><a name="Hello" class="anchor" href="#Hello everyone..."><span class="octicon octicon-link"></span></a>
+	2013 - New era: Luys Cloud University
+</h3>
+
+<p><b>Tech: Python</b><br>
+</p> -->
+
+
 <h3><a name="Hello" class="anchor" href="#Hello everyone..."><span class="octicon octicon-link"></span></a>
-	2012 - McGill era: Tutorial section recommender
+	2013 - New era: Mathnotes
+</h3>
+
+<p><b>Tech: Python, Flask, SQLalchemy, SQLite</b><br>
+Mathnotes is a one of my ongoing projects. Mathnotes is for people in academia who want to save there notes 
+which might contain equations. Project was initially started by <a href = "http://pierrelucbacon.com/">Pierre-Luc Bacon</a> 
+which I am currently extending and adding features such as adding support for citations. 
+</p>
+
+
+
+<h3><a name="Hello" class="anchor" href="#Hello everyone..."><span class="octicon octicon-link"></span></a>
+	2013 - McGill era: Discovering Relevant Tutorial section
 </h3>
 
 <p><b>Tech: Java, Stanford CoreNLP, R</b><br>
+This project is based on my master thesis research at 
+<a href="http://www.cs.mcgill.ca/~martin/students.html">STENO group</a>, McGill University.
+This work focuses on discovering relevant sections of tutorials for a given API type.
+We approach this problem by identifying API types in API tutorial, dividing the tutorial
+into small fragments and classifying them based on linguistic and structural features.
+The system we developed can ease information discovery for the developers who need
+information about a particular API type.
 </p>
+<p>The <a href = "https://github.com/pgayane/TutorialRecommender">source code</a> can be found at my GitHub account. Hopefully I will refactor the source code
+and add more documentation in near future so that it is usable without me.</p>
 
 <h3><a name="Hello" class="anchor" href="#Hello everyone..."><span class="octicon octicon-link"></span></a>
-	2012 - McGill era: Mining Answers to QA forum questions
+	2012 - McGill era: Mining Answers to Technical Forum Questions
 </h3>
 
 <p><b>Tech: Java, OpenNLP, Lucene</b><br>
+This was a project done for Recommender Systems for Software Engineering course which led to my master thesis research. 
+The project was able to filter "How to" questions and select the most important words and phrases out of the sentence and 
+afterwards using Lucene search the index of javadocs to find the potential answer. During this project I learnt a lot about 
+using NLP tools and the challenges specific for Software Documentation which help me in my future research.
 </p>
+<p>To read more about this research feel free to to read the final <a href = "res\cs762_finalpaper.pdf">report</a> </p>
 <h3><a name="Hello" class="anchor" href="#Hello everyone..."><span class="octicon octicon-link"></span></a>
 	2012 - McGill era: Smart Video Player
 </h3>
@@ -47,18 +83,23 @@ video would pause and resume if face turns back. If person leaves the seat then 
 <p> More details, the demo and the source code can be found <a href="http://cs.mcgill.ca/~gpetro6/comp558_project.html">here</a>.</p>
 
 <h3><a name="Hello" class="anchor" href="#Hello everyone..."><span class="octicon octicon-link"></span></a>
-	2011 - McGill era: Machine Learning project
+	2011 - McGill era: Detecting teams from individual player trajectories
 </h3>
 
-<p><b>Tech: MatLab</b><br>
+<p><b>Tech: MatLab, Java</b><br>
+This is a course project for Machine Learning and my first project at McGill University. The motivation of the project is that 
+in many multiplayer online role-playing games when players engage in secondary communication or form hidden aliases is considered cheating.
+This project uses unsupervised machine learning techniques to distinguish actual teams players by looking into the actions the players took.
+It uses logs from large scale multiplayer game research framework developed at McGill University (Mammonth).
 </p>
+<p>For more info you can read the <a href = "res\cs652_report.pdf">report</a> or the <a href = "res\cs652_presentation.pdf">presentation</a>.
 
 <h3><a name="Hello" class="anchor" href="#Sharik"><span class="octicon octicon-link"></span></a>
 	2003 - First love with programming: Sharik 
 </h3>
 <p>
 <b>Tech: Visual Basic, MS Access</b><br>
-This my very first more or less complete program written 10 years ago. Each time you start the game 
+This is my very first more or less complete program written 10 years ago. Each time you start the game 
 it randomly selects a path from start to finish which the user needs to guess. I should say that this is 
 extremely boring to play because chances of winning it is 1 in 2^8 (or 2**8 in python).
 </p>
