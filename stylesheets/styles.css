@@ -25,6 +25,7 @@ h1 {
 }
 
 h2 {
+  border-bottom:1px solid  #d1d1d1;	
   color:#393939;
 }
 
@@ -80,6 +81,20 @@ th, td {
   text-align:left;
   padding:5px 10px;
   border-bottom:1px solid #e5e5e5;
+}
+
+.resume td{
+  border-bottom:0px solid #e5e5e5;
+}
+
+.resumedate td{
+  text-align:right;
+  font-weight: bold;
+}
+
+.resumesection td{
+  padding: 0px 0px;
+  vertical-align:top;
 }
 
 dt {
